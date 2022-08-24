@@ -49,8 +49,8 @@ const App = () => {
       {/* <HeadComponent /> */}
       <div className="container">
         <header className="header-container">
-          <p className="header"> 😳 Buildspace Emoji Store 😈</p>
-          <p className="sub-text">The only emoji store that accepts AceCoins</p>
+          <p className="header"> 😳 IncognitoBuy Store 😈</p>
+          <p className="sub-text">The E-Commerce store that accepts AceCoins</p>
         </header>
 
         <main>
@@ -59,11 +59,10 @@ const App = () => {
             alt="emoji"
           /> */}
           {publicKey ? renderItemBuyContainer() : renderNotConnectedContainer()}
-
         </main>
 
         <div className="footer-container">
-          <img
+          {/* <img
             alt="Twitter Logo"
             className="twitter-logo"
             src="twitter-logo.svg"
@@ -73,7 +72,7 @@ const App = () => {
             href={TWITTER_LINK}
             target="_blank"
             rel="noreferrer"
-          >{`built on @${TWITTER_HANDLE}`}</a>
+          >{`built on @${TWITTER_HANDLE}`}</a> */}
         </div>
       </div>
     </div>
